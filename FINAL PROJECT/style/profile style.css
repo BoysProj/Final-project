@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@800&family=Rubik+Bubbles&display=swap');
+
+
+*{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'M Plus Rounded 1c', sans-serif;
+}
+.navbar{  
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.navdiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.logo a{
+  font-size: 35px;
+  font-weight: 600;
+  color: rgb(78, 52, 18);
+  background: white;
+  -webkit-background-clip: text;
+  color: transparent;
+  justify-content: center;
+}
+ul{
+  background-color: white;
+  border-radius: 30px;
+  padding: 25px 30px;
+  padding-left: 40px;
+  transition: 0.3s;
+}
+ul:hover{
+  transition: 0.3s ease;
+  transform: scale(1.1);
+}
+ li{
+  list-style: none;
+  display: inline-block;
+}
+
+li a{
+  color: rgb(0, 0, 0); 
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 25px;
+  transition: 0.5s;
+}
+li a:hover{
+  background: linear-gradient(to left, black, rgb(212, 144, 79), black);
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: 0.5s ease-in-out;
+  text-decoration: underline;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.logo img{
+  width: 150px;
+}
+
+.video-background {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.video-background video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  filter: blur(12px);
+}
+.bgimage{
+  filter: blur(5px);
+}
+.logo{
+  position: relative;
+  display: inline-block;
+  transition: 0.5s;
+}
+.logomain{
+  vertical-align: middle;
+  transition: 0.5s;
+  
+}
+.logo:hover,
+.logomain{
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+/*products*/
+.logoname{
+  text-align: center;
+  margin: 40px;
+  font-size: 60px;
+  color: rgb(250, 250, 250);
+}
+.logoname:hover{
+  transition: 1s;
+  transform: scale(1.1);
+}
+.search{  
+  text-align: center;
+  position: relative;
+}
+.searchbar{
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid ;
+  border-radius: 30px;
+  width: 300px;
+  transition: 1s;
+  transform: scale(1.1);
+}
+.searchbar:hover{
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+/*cards*/
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 30px;
+  left: 10%;
+}
+
+.card {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(252, 252, 252, 0.1), 0 10px 20px rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 30px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card .img-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s;
+}
+
+.card:hover .img-box {
+  transform: scale(1.2);
+}
+
+.card .icon-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 60px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.card:hover .icon-box {
+  opacity: 1;
+}
+
+.card .icon-box i {
+  display: inline-block;
+  transform: rotate(45deg);
+}
+.hhh{
+display: flex;
+font-size: 13px;
+align-items: center;
+justify-content: center;
+height: 100%;
+margin-left: 10px;
+text-decoration: none;
+background-color: black;
+border-radius: 15px;
+}
+.card h3{
+  font-size: 10px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.card i{
+  background: linear-gradient(90deg, #ffffff, rgb(212, 144, 79));
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+.card h3{
+  font-size: 30px;
+  background: linear-gradient(90deg, #ffffff, rgb(212, 144, 79));
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+/*buttons*/
+.log-in{
+  border: none;
+  background: rgb(250, 175, 114) ;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+  transition: 0.5s;
+}
+.log-in:hover{
+  transition: 0.5s ease-in-out;
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+footer{
+  background-color: rgba(218, 131, 60, 0.747);
+  height: auto;
+  text-align: center;
+}
+/*Loader*/
+

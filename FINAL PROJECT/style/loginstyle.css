@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@800&family=Rubik+Bubbles&display=swap');
+
+  *{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'M Plus Rounded 1c', sans-serif;
+  }
+  .navdiv{
+    margin-left: -250px;
+    
+  }
+  .logo img{
+    position: absolute;
+    top: 7%;
+    left: 55%;
+    width: 250px;
+    margin-right: 40px;
+    margin-top: 30px;
+    transition: 0.5s;
+  }
+  .logo img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+  h1{
+    
+    background-color: transparent;
+  }
+
+  input{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 0px;
+    background-color:  inherit;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    color: rgb(243, 179, 106);
+  }
+  input::placeholder{
+    color: rgb(243, 179, 106);
+    text-decoration: none;
+  }
+  .all{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 150px;
+    margin-left: 450px;
+    color: rgb(243, 179, 106);
+    background: transparent;
+    backdrop-filter: blur(10px);
+    padding: 50px;
+    border-radius: 10px;
+    width: 700px;
+    display: flex;
+    box-shadow: 2px 2px 5px black;
+  }
+  input i{
+    right: 20px;
+  }
+  .input{
+    background-color: inherit;
+  }
+  h1{
+    text-align: center;
+  }
+  .accountmake a{
+    color: rgb(243, 179, 106);
+    text-decoration: none;
+  }
+  .all button{
+    width: 100%;
+    height: 50px;
+    background: white;
+    color: rgb(243, 179, 106);
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 2px 2px 5px black;
+    margin-top: 20px;
+  }
+
+  .all button:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+ }
+ .accountmake a:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+ }
+ footer{
+  background-color: rgba(218, 131, 60, 0.747);
+  margin-top: 45px;
+  text-align: center;
+}
